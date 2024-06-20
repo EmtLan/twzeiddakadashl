@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - asas</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>蕭智仁的個人名片</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="main-header">
+        <h1>蕭智仁的個人名片</h1>
+        <nav>
+            <ul>
+                <li><a href="#article1">NLP心得報告</a></li>
+                <li><a href="#article2">羽球比賽報告</a></li>
+                <li><a href="https://www.facebook.com/ctusuu" target="_blank">Facebook</a></li>
+                <li><a href="https://x.com/ctusuu" target="_blank">X</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <button id="back-to-top" onclick="scrollToTop()">&#8679;</button>
+
+    <main>
+        <section class="profile">
+            <img class="cc" src="https://scontent.ftpe7-4.fna.fbcdn.net/v/t39.30808-1/421708884_6701372796633849_4619603448318516121_n.jpg?stp=dst-jpg_p720x720&_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=HIdD0ZT396YQ7kNvgFa1u7O&_nc_ht=scontent.ftpe7-4.fna&oh=00_AYDCjagpybJE3-nGgDW5vO0D_nNC1kVwbM6KKrzt934cEg&oe=6678F46A" alt="Profile Image">
+            <div class="namecard">
+                <h2>蕭智仁 <span>Siao-Zhiren</span></h2>
+                <h5>國立嘉義大學數位二甲</h5>
+                <hr>
+                <p>研究興趣為遊戲設計，觀察各式二次元繪圖創作。</p>
+            </div>
+        </section>
+
+        <section class="content">
+            <article class="report" id="article1">
+                <h2>心得報告 - NLP</h2>
+                <p>數位系二甲 1113857 蕭智仁</p>
+                <p>NLP全名叫做natural language processing其功能就如我們平常聽別人講課一樣,是機器讓語言與機器語言互相交流翻譯的過程。</p>
+                <h3>以下是利用NLP的幾個例子</h3>
+                <ul>
+                    <li>它可以防止或校正當語言發生需要翻譯的狀況時出現意義不同的情形。</li>
+                    <li>它可以幫助聊天機器人(如:SIRI)做出行動抉擇。</li>
+                    <li>它可以為E-mail郵件做分類。</li>
+                    <li>建議或改善文本用字遣詞(如:grammarly)。</li>
+                </ul>
+                <h3>NLP是如何判斷事情的呢?</h3>
+                <p>它判斷事情時會經過代幣化(tokenization)->分類決定是要做為詞幹或詞形還原(stemming  or  lemmatization)->詞性標註(Part of Speech Tagging)->命名實體識別 (NER)。</p>
+                <p>其中我覺得最有意思的部分是詞幹或詞形還原(stemming  or  lemmatization)->詞性標註(Part of Speech Tagging),因為在某些情形下,一個字在不同情形下會有不同的意思,所以需要給文字做分類(詞幹或詞形還原)。透過這個影片我再次覺得機器學習與認知的方法果然是不同常規且有趣,之後暑假還可以再研究一番。</p>
+                <p>影片連結:<a href="https://youtu.be/fLvJ8VdHLA0?si=tBXXyCZHy0KL1Ysi">https://youtu.be/fLvJ8VdHLA0?si=tBXXyCZHy0KL1Ysi</a></p>
+            </article>
+
+            <article class="report" id="article2">
+                <h2>羽球比賽報告</h2>
+                <p>數位系二甲 1113857 蕭智仁</p>
+                <p>整場比賽相當精采,也讓我受益良多</p>
+                <h3>第一把</h3>
+                <p>中華台北雖然前半場不斷處於落後,但在接近尾聲時成功反超拿下第一局,這場兩邊皆有發球失誤,且雙方次數差不多,但是TPE這邊的防守功力,或著說,由守轉攻的技巧實在了得,兩位選手在場上互相調度互補防守,在對手攻不下時找到機會反手進攻一波拿下分數的次數十分之多,讓我在第一場結束時不禁期待CHN第二把會如何應對。</p>
+                <h3>第二把</h3>
+                <p>開場兩邊皆出現失誤,雙方分數未拉開多少,且緊接著26:50秒這球我很喜歡,CHN的選手在這殺球是在必得的情況下,確認對手姿勢已經崩毀之後確認好殺球路徑不會殺到對手才殺下來讓我敬佩場上球員的運動家精神,在冠軍戰還能保持理智清晰,選手的心理素質令人佩服,但經過開場亂流後TPE明顯找到狀態,不斷發起猛攻,並在最後以領先9分贏下了比賽。</p>
+                <p>比賽難免有勝負,但兩邊選手我都覺得十分的厲害,尤其是在配合的這個部分,因為我通常打羽球都是自己打,在學校就算分組雙打,也總有種還是在單打的感覺,看完這場比賽後,我也開始希望,有天,我也能跟別人,在球場上,打出這般美妙的雙打吧。</p>
+            </article>
+        </section>
+    </main>
+
+   
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
